@@ -51,6 +51,8 @@ def execute_macro(client):
     ADF.setFrequencyN(3000)
     input("Enter de continue")
     ADF.setFrequencyN(2600)
+    input("Enter de continue")
+    ADF.setFrequencyN(2800)
     print("Fin de la scéance")
 
 
