@@ -154,39 +154,23 @@ class ADF4383():
         if frac_value < 0 or frac_value > (2 ** 25 - 1):
             raise ValueError("FRAC1WORD doit être entre 0 et 2^25 - 1")
 
-        # ----------------------------
-        # Découpage des 25 bits
-        # ----------------------------
         reg12 = frac_value & 0xFF
         reg13 = (frac_value >> 8) & 0xFF
         reg14 = (frac_value >> 16) & 0xFF
         bit24 = (frac_value >> 24) & 0x01
 
-        # ----------------------------
-        # Conversion adresses HEX -> DECIMAL
-        # ----------------------------
         addr12 = str(int("0x12", 16))  # 18
         addr13 = str(int("0x13", 16))  # 19
         addr14 = str(int("0x14", 16))  # 20
         addr15 = str(int("0x15", 16))  # 21
 
-        # ----------------------------
-        # Lecture REG0015 (retourne hex string)
-        # ----------------------------
         current_reg15 = int(
             self.client.ReadRegister(addr15).strip(),
             16
         )
 
-        # ----------------------------
-        # Modification uniquement du bit FRAC1WORD[24]
-        # (supposé être bit0 — vérifier datasheet)
-        # ----------------------------
         new_reg15 = (current_reg15 & 0xFE) | bit24
 
-        # ----------------------------
-        # Ecriture registres (decimal string)
-        # ----------------------------
         self.client.WriteRegister(addr12, str(reg12))
         self.client.WriteRegister(addr13, str(reg13))
         self.client.WriteRegister(addr14, str(reg14))
@@ -199,38 +183,46 @@ class ADF4383():
 
 
     def setupInternLUT(self):
-        self.writeParameter(RegMap.VCTAT_CALGEN,21)
-        self.writeParameter(RegMap.VPTAT_CALGEN,7)
 
-        self.setAutoCalibration(True)
-        self.client.WriteRegister("32", "130")
-        self.writeParameter(RegMap.EN_LUT_CAL, 0)
-        self.writeParameter(RegMap.INT_MODE, 1)
+        # self.writeParameter(RegMap.VCTAT_CALGEN,21)
+        # self.writeParameter(RegMap.VPTAT_CALGEN,7)
+        self.client.WriteRegister(0x44,0x07) # VPTAT_CALGEN
+        self.client.WriteRegister(0x45,21) # VCTAT_CALGEN
+
+        # self.setAutoCalibration(True)
+        self.client.WriteRegister("32", "130") # R_DIV = 2
+        # self.writeParameter(RegMap.EN_LUT_CAL, 0)
+        self.client.WriteRegister(0x36,0b10000000) # Désactive la calibration via la LUT
+        self.client.WriteRegister(0x15,0b11000110) # Désactive le mode fractionnaire
+        # self.writeParameter(RegMap.INT_MODE, 1)
         self.setNandDivider(21) # peut-être nécéssaire de mettre à 40 vu l'ingérance de ACE
-        self.pushParameters()
+        # self.pushParameters()
 
-        self.writeParameter(RegMap.EN_LUT_GEN, 1)
-        self.pushParameters()
+        self.client.WriteRegister(0x36,0b10000010) # Active la génération de la LUT
+        # self.pushParameters()
 
-        print("Après LUT_GEN:", self.readParameter(RegMap.RFOUT_DIV))
-        print("Après LUT_GEN (N_int):", self.readParameter(RegMap.N_INT))
+        # print("Après LUT_GEN:", self.readParameter(RegMap.RFOUT_DIV))
+        # print("Après LUT_GEN (N_int):", self.readParameter(RegMap.N_INT))
 
         # while self.readParameter(RegMap.LUT_BUSY) == "True\n":
         #     print("Attente de la génération LUT")
         attente = 1
         counter = 0
-        while int(self.readParameter(RegMap.FSM_BUSY)) == 1:
-            time.sleep(0.01)
-            counter = counter + 1
-            print(f"Attente de FSM_BUSY : {counter}")
+        # while int(self.readParameter(RegMap.FSM_BUSY)) == 1:
+        #     time.sleep(0.01)
+        #     counter = counter + 1
+        #     print(f"Attente de FSM_BUSY : {counter}")
 
-        self.writeParameter(RegMap.LUT_SCALE,2)
+        # self.writeParameter(RegMap.LUT_SCALE,2)
+        self.client.WriteRegister(0x4F,0x02)
 
-        self.pushParameters()
+        # self.pushParameters()
         self.client.WriteRegister("32", "129")
-        self.writeParameter(RegMap.CAL_VTUNE_TO, 0)
-        self.writeParameter(RegMap.INT_MODE, 0)
-        self.pushParameters()
+        # self.writeParameter(RegMap.CAL_VTUNE_TO, 0)
+        self.client.WriteRegister(0x38,0x00) # CAL_VTUNE
+        self.client.WriteRegister(0x39,0x80) # CAL_VTUNE
+        self.client.WriteRegister(0x15,0b11000010) # réactive le mode fractionnaire
+        # self.pushParameters()
         self.client.WriteRegister("54", "129") # disable EN_LUT_GEN, enable EN_LUT_CAL
         # self.client.WriteRegister("32", "1") # Met le EN_AUTOCAL à off
         #.client.WriteRegister("44", "164") # Met les LDWIN et LD coutn
