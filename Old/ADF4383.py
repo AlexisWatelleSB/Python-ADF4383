@@ -12,7 +12,7 @@ class ADF4383():
     def __init__(self,client):
         self.logger  = logging.getLogger(__name__)
 
-        logging.basicConfig(filename='Log.txt', level=logging.INFO)
+        logging.basicConfig(filename='../Log.txt', level=logging.INFO)
         self.logger.info(" --- [ Init de la classe ADF4383 ] ---")
         self.client = client
         self.client.WriteRegister(0x00,0b00011000)  # clear tout les reset de la chip
@@ -24,13 +24,17 @@ class ADF4383():
         self.client.WriteRegister(0x3F,0b10000010) # Enable ADC
         self.client.WriteRegister(0x24,0x00) # Clock control
         self.client.WriteRegister(0x3B,0x00) # Delay control double buffer
-
+        self.writeCheckpoint(1)
         self._configChargePump()
         self._configBiasTable()
         self._configRefDoubler()
+        self.writeCheckpoint(2)
         self.powerDownAll(0) # Activer tous les blocs internes de la PLL
-        self._configBiasTable()
         self.pushParameters()
+        self.writeCheckpoint(3)
+
+    def writeCheckpoint(self,value):
+        self.client.WriteRegister(0x0A,value)
 
     def powerDownAll(self,value = 1):
         self.client.WriteRegister(0x2A,0b00110000)
@@ -203,17 +207,22 @@ class ADF4383():
 
 
     def setupInternLUT(self):
+        self.writeCheckpoint(4)
         self.writeParameter(RegMap.VCTAT_CALGEN,21)
         self.writeParameter(RegMap.VPTAT_CALGEN,7)
         self.setAutoCalibration(True)
         self.client.WriteRegister("32", "130")
+        self.writeCheckpoint(5)
         self.writeParameter(RegMap.EN_LUT_CAL, 0)
         self.writeParameter(RegMap.INT_MODE, 1)
         self.setNandDivider(21)
+        self.writeCheckpoint(6)
         self.pushParameters()
+        self.writeCheckpoint(7)
 
         self.writeParameter(RegMap.EN_LUT_GEN, 1)
         self.pushParameters()
+        self.writeCheckpoint(8)
 
         print("Après LUT_GEN:", self.readParameter(RegMap.RFOUT_DIV))
         print("Après LUT_GEN (N_int):", self.readParameter(RegMap.N_INT))
@@ -227,17 +236,23 @@ class ADF4383():
             counter = counter + 1
             print(f"Attente de FSM_BUSY : {counter}")
 
+        self.writeCheckpoint(9)
         self.writeParameter(RegMap.LUT_SCALE,2)
 
         self.pushParameters()
+        self.writeCheckpoint(10)
         self.client.WriteRegister("32", "129")
         self.writeParameter(RegMap.CAL_VTUNE_TO, 0)
         self.writeParameter(RegMap.INT_MODE, 0)
+        self.writeCheckpoint(11)
         self.pushParameters()
+        self.writeCheckpoint(12)
         self.client.WriteRegister("54", "129") # disable EN_LUT_GEN, enable EN_LUT_CAL
         # self.client.WriteRegister("32", "1") # Met le EN_AUTOCAL à off
         #.client.WriteRegister("44", "164") # Met les LDWIN et LD coutn
+        self.writeCheckpoint(13)
         self.client.WriteRegister("44", 0b10000100)
+        self.writeCheckpoint(14)
 
 
     def writeBigIntByName(self,name,value):

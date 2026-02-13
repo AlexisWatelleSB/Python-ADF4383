@@ -9,12 +9,9 @@
 
 
 import sys
-import time
 
-import numpy as np
-
-from ADF4383 import ADF4383
-from ADF4383RegisterMap import ADF4383RegisterMap as RegMap
+#from Old.ADF4383 import ADF4383 as ADF4383
+from ADF4383Registers import ADF4383Registers as ADF4383
 
 sys.path.append(r'C:\Program Files (x86)\Analog Devices\ACE\Client')
 
