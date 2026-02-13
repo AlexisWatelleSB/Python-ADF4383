@@ -13703,3 +13703,849 @@ INFO:ADF4383:Lecture de 	29
 		 dans VCO_BAND 
 INFO:ADF4383:Lecture de 	1
 		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	2
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	42
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	429
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	369
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	309
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	262
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	208
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	156
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	116
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	76
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	41
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	16
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	3
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	10
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	2
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	42
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	429
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	369
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	309
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	262
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	209
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	157
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	116
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	76
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	41
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	16
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	2
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	42
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	429
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	369
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	309
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	262
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	209
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	156
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	116
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	76
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	41
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	14
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	3
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	10
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	2
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	42
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	429
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	369
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	309
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	262
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	209
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	156
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	116
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	76
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	41
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	14
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	2
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	42
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	380
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	331
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	282
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	241
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	184
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	133
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	94
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	60
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	28
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	2
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	42
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	429
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	369
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	309
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	262
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	208
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	156
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	116
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	76
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	41
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	14
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	3
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	10
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	2
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	42
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	429
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	369
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	309
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	264
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	209
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	157
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	116
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	76
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	41
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	16
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	3
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	10
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	2
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	42
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	2
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	42
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	429
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	369
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	309
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	264
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	209
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	157
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	116
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	76
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	41
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	16
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	3
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	10
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	2
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	42
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	429
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	369
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	309
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	264
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	209
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	157
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	116
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	76
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	41
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	16
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	0		 dans EN_RDBLR 
+INFO:ADF4383:Ecriture de 	2		 dans RFOUT_DIV 
+INFO:ADF4383:Ecriture de 	0		 dans REF_SEL 
+INFO:ADF4383:Ecriture de 	1		 dans R_DIV 
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	3
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	10
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	0		 dans EN_RDBLR 
+INFO:ADF4383:Ecriture de 	2		 dans RFOUT_DIV 
+INFO:ADF4383:Ecriture de 	0		 dans REF_SEL 
+INFO:ADF4383:Ecriture de 	1		 dans R_DIV 
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	2
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	42
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	2
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	42
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	3
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	10
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	20
+		 dans VCO_BAND 
+INFO:ADF4383: --- [ Init de la classe ADF4383 ] ---
+INFO:ADF4383:Ecriture de 	21		 dans VCTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	7		 dans VPTAT_CALGEN 
+INFO:ADF4383:Ecriture de 	True		 dans EN_AUTOCAL 
+INFO:ADF4383:Ecriture de 	0		 dans EN_LUT_CAL 
+INFO:ADF4383:Ecriture de 	1		 dans INT_MODE 
+INFO:ADF4383:Ecriture de 	1		 dans EN_LUT_GEN 
+INFO:ADF4383:Lecture de 	2
+		 dans RFOUT_DIV 
+INFO:ADF4383:Lecture de 	42
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans FSM_BUSY 
+INFO:ADF4383:Ecriture de 	2		 dans LUT_SCALE 
+INFO:ADF4383:Ecriture de 	0		 dans CAL_VTUNE_TO 
+INFO:ADF4383:Ecriture de 	0		 dans INT_MODE 
+INFO:ADF4383:Lecture de 	0
+		 dans EN_RDBLR 
+INFO:ADF4383:Lecture de 	1
+		 dans R_DIV 
+INFO:ADF4383:Lecture de 	21
+		 dans N_INT 
+INFO:ADF4383:Lecture de 	0
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	431
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	370
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	309
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	264
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	209
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	157
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	116
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	76
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	41
+		 dans VCO_BAND 
+INFO:ADF4383:Lecture de 	16
+		 dans VCO_BAND 

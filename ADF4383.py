@@ -16,21 +16,20 @@ class ADF4383():
         self.logger.info(" --- [ Init de la classe ADF4383 ] ---")
         self.client = client
         self.client.WriteRegister(0x00,0b00011000)  # clear tout les reset de la chip
-        self.client.WriteRegister(0x1E,0b00101001)  # Met les paramètres de bleed de la chip
+        #self.client.WriteRegister(0x1E,0b00101001)  # SR1 Met les paramètres de bleed de la chip
         self.client.WriteRegister(0x2D,0b11110000) # Active les clock internes
-        self.client.WriteRegister(0x31,0b00001001) # Active la clock de l'ADC
+        #self.client.WriteRegister(0x31,0b00001001) # SR1 Active la clock de l'ADC
         self.client.WriteRegister(0x29,0b00001001) # Power output amplitude
-        self.client.WriteRegister(0x34,0b00110110) # Input delay to CLK path
-        self.client.WriteRegister(0x3F,0b10000010) # Enable ADC
-        self.client.WriteRegister(0x24,0x00) # Clock control
+        #self.client.WriteRegister(0x34,0b00110110) # SR1 Input delay to CLK path
+        #self.client.WriteRegister(0x3F,0b10000010) # SR2 Enable ADC
+        self.client.WriteRegister(0x24,0x00) # U2 Clock control
         self.client.WriteRegister(0x3B,0x00) # Delay control double buffer
-
-        self._configChargePump()
-        self._configBiasTable()
-        self._configRefDoubler()
+        #self.client.WriteRegister(0x28,0x00) # SR2 Resync alpha-delta
+        #self._configInputPath()
+        #self._configChargePump() # SR3
+        #self._configBiasTable()
+        #self._configRefDoubler() # SR3
         self.powerDownAll(0) # Activer tous les blocs internes de la PLL
-        self._configBiasTable()
-        self.pushParameters()
 
     def powerDownAll(self,value = 1):
         self.client.WriteRegister(0x2A,0b00110000)
@@ -38,12 +37,8 @@ class ADF4383():
 
     def _configInputPath(self):
         # TODO mettre les addresse des registres à la place
-        self.writeParameter(RegMap.EN_RDBLR,0) # Desactivier doubleur
-        self.writeParameter(RegMap.RFOUT_DIV,2) # Mettre /4 sur retour
-        self.pushParameters()
-        self.writeParameter(RegMap.REF_SEL,0) # Prendre mode DMA
-        self.writeParameter(RegMap.R_DIV,1) # Mettre diviseur d'entrée à 1
-
+        # Avec les addresse, remettre le diviseur d'entrée qui chie tout
+        self.client.WriteRegister(0x20,0x81)
     def _configRefDoubler(self):
         self.client.WriteRegister(0x2F, 0x3F)  # Reference doubler duty cycle
         self.client.WriteRegister(0x30, 0x0F)  # Reference doubler pulse witdh
@@ -61,6 +56,7 @@ class ADF4383():
         self.client.WriteRegister(0x1F,0b00011111) # Charge pump bleed options
 
     def pushParameters(self):
+        self.logger.warning("ACE push settings executed")
         self.client.Run("@ApplySettings")
 
     def overwriteLUT(self):
@@ -205,11 +201,12 @@ class ADF4383():
     def setupInternLUT(self):
         self.writeParameter(RegMap.VCTAT_CALGEN,21)
         self.writeParameter(RegMap.VPTAT_CALGEN,7)
+
         self.setAutoCalibration(True)
         self.client.WriteRegister("32", "130")
         self.writeParameter(RegMap.EN_LUT_CAL, 0)
         self.writeParameter(RegMap.INT_MODE, 1)
-        self.setNandDivider(21)
+        self.setNandDivider(21) # peut-être nécéssaire de mettre à 40 vu l'ingérance de ACE
         self.pushParameters()
 
         self.writeParameter(RegMap.EN_LUT_GEN, 1)
